@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero {
+  background-color: #1f2937;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.content-container {
+  width: 1200px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #f9faf8;
+  padding: 15px 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.content-container {
+  width: 1200px;
+}
+
+.hero-img {
+  width: 300px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.hero-container-left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.hero-container-left h3 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-container-left p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-container-left button {
+  background-color: #3882f6;
+  border: none;
+  color: #f9faf8;
+  padding: 7px 15px;
+  border-radius: 5px;
+}
