@@ -228,3 +228,27 @@ body {
   padding: 7px 15px;
   border-radius: 5px;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #1f2937;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  padding: 25px 0;
+}
+
+.footer-text p {
+  color: #f9faf8;
+  font-size: 15px;
+  font-weight: 500;
+}
